@@ -1,0 +1,520 @@
+body {
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+  }
+
+@font-face {
+    font-family: Roca One;
+    src: url('../fonts/Roca-Regular.ttf');
+  }
+  
+@font-face {
+    font-family: More Sugar;
+    src: url('../fonts/more-sugar.regular.ttf');
+  }
+
+@font-face {
+    font-family: Olivar Base;
+    src: url('../fonts/Oilvare\ Base.ttf');
+  }
+
+@font-face {
+    font-family: Montserrat-B;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+/* Hero Section */
+
+.hero {
+    min-height: 100vh;
+    background-image: url('../img/bg-1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero a {
+    color: #5F6B4B;
+    border: #5F6B4B 5px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: 600;
+    position: absolute;
+    right: 10rem;
+    bottom: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: #545f42;
+    border: #5F6B4B 5px solid;
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+
+    .hero .logo {
+        width: 30%;
+    }
+
+    .hero .judul {
+        width: 90%;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+        right: auto;
+    }
+
+    .hero a {
+        left : 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 20%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        text-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+        font-size: x-large;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+    .hero .logo {
+        width: 30%;
+    }
+
+    .hero .judul {
+        width: 90%;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+        right: auto;
+      }
+
+    .hero a {
+        left : 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 20%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        text-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+        font-size: large;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+
+    .hero .logo {
+        width: 50%;
+    }
+
+    .hero .judul {
+        width: 90%;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(-50%) !important;
+        right: auto;
+    }
+
+    .hero a {
+        left : 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 20%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        text-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+        font-size: large;
+    }
+}
+
+/* End Hero Section */
+
+/* Ingredients */
+
+.ingredients {
+    min-height: 100vh;
+    background-image: url('../img/bg-2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.ingredients .col-md-8 img{
+    width: 39%;
+    max-width: 450px;
+}
+
+.ingredients .col-md-8 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+@media (max-width: 1400px) {
+    .ingredients .col-md-8 img {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ingredients .judul {
+        width: 70%;
+    }
+
+    .ingredients .col-md-8 img {
+        max-width: 235px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ingredients .judul {
+        width: 80%;
+    }
+
+    .ingredients .col-md-8 img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ingredients .judul {
+        width: 90%;
+    }
+    
+    .ingredients .col-md-8 img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .ingredients .judul {
+        width: 90%;
+    }
+    .ingredients .col-md-8 img {
+        width: 75%;
+    }
+}
+
+/* End Ingredients */
+
+/* Benefits */
+
+.benefits {
+    min-height: 100vh;
+    background-image: url('../img/bg-3-3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.benefits .kotak-manfaat {
+    background-color: #6B6B4B;
+    color: #FFDE59;
+    border-radius: 10px;
+    min-height: 280px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kotak-manfaat h1 {
+    font-family: 'More Sugar';
+}
+
+.kotak-manfaat p {
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+
+.benefits .kotak-manfaat:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.benefits .logo {
+    position: absolute;
+    margin-top: 60px;
+    right: 0;
+    max-width: 200px;
+}
+
+@media (max-width: 1200px) {
+    .benefits .kotak-manfaat {
+        width: 100%;
+        margin-bottom: 1rem;
+        min-height: 360px;
+    }
+
+    .benefits .logo {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 992px) {
+    .benefits .benefit {
+        visibility: hidden;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .benefits .benefit-mobile {
+        width: 80%;
+    }
+
+    .benefits .kotak-manfaat {
+        width: 100%;
+        margin-bottom: 1rem;
+        min-height: 250px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .benefits .kotak-manfaat {
+        width: 100%;
+        margin-bottom: 1rem;
+        min-height: 300px;
+    }
+    
+    /* Optional: adjust padding/margin for better mobile view */
+    .benefits .row {
+        padding: 0 15px;
+    }
+    
+    /* Optional: adjust text size for mobile */
+    .kotak-manfaat h1 {
+        font-size: 1.3rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .kotak-manfaat p {
+        font-size: 1rem;
+    }
+    
+}
+
+/* End Benefits */
+
+/* Info */
+
+.info {
+    min-height: 100vh;
+    background-image: url('../img/bg-4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.info .logo {
+    margin-top: 60px;
+    max-width: 200px;
+}       
+
+.info h1{
+    font-family: 'Olivar Base';
+    color: #FFDE59;
+    font-size: 4rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #806600;
+}
+
+.info p{
+    font-family: 'Montserrat-B';
+    color: #5F6B4B;
+    font-size: 2rem;
+    font-weight: bold;
+    -webkit-text-stroke-color: #FFDE59;
+    -webkit-text-stroke-width: 0.3px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+.info ul {
+    width: fit-content;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Montserrat-B';
+    color: #5F6B4B;
+    font-size: 2rem;
+    font-weight: bold;
+    -webkit-text-stroke-color: #FFDE59;
+    -webkit-text-stroke-width: 0.3px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1200px) {
+    .info .logo {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 576px) {
+    .info h1 {
+        -webkit-text-stroke-width: 3px;
+    }
+
+    .info p {
+        -webkit-text-stroke-width: 0.1px;
+    }
+
+    .info ul {
+        -webkit-text-stroke-width: 0.1px;
+    }
+}
+
+/* End Info */
+
+/* Sosmed */
+
+.sosmed {
+    min-height: 100vh;
+    background-image: url('../img/bg-5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sosmed .logo {
+    margin-top: 60px;
+    max-width: 200px;
+}
+
+.sosmed .find {
+    font-family: 'Olivar Base';
+    font-size: 4rem;
+    color: #FFDE59;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #806600;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.sosmed h3 {
+    font-family: 'Roca One';
+    color: #FFDE59;
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sosmed p {
+    font-family: 'Montserrat';
+    color: #FFDE59;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sosmed .img-fluid {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.sosmed a {
+    text-decoration: none;
+}
+
+.sosmed p:hover {
+    color: #dcbc3d;
+}
+
+@media (max-width: 576px) {
+    .sosmed .icon img {
+        width: 120px !important; /* Override the inline width */
+    }
+    
+    .sosmed h3 {
+        font-size: 2.5rem; /* Optional: adjust heading size too */
+    }
+    
+    .sosmed p {
+        font-size: 1.5rem; /* Optional: adjust paragraph size too */
+    }
+
+    .sosmed .find {
+        font-size: 6rem;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sosmed .logo {
+        visibility: hidden;
+    }
+}
+
+/* End Sosmed */
+
+/* Contact */
+
+.contact {
+    min-height: 100vh;
+    background-image: url('../img/bg-6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact h1 {
+    font-family: 'Roca One';
+    color: #FFDE59;
+    font-size: 3rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact .contactt p {
+    font-family: 'Montserrat';
+    color: #FFDE59;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact .follow h3 {
+    font-family: 'Roca One';
+    font-size: 3rem;
+    color: #FFDE59;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact .sosmednya p {
+    font-family: 'Roca One';
+    font-size: 1.3rem;
+    color: #FFDE59;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact .sosmednya p:hover {
+    color: #dcbc3d;
+}
+
+.contact h5 {
+    font-family: 'Montserrat';
+    color: #FFDE59;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .contact .sosmednya p {
+        margin-left: 15px !important;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact .sosmednya p{
+        font-size: 1.7rem !important;
+    }
+}
