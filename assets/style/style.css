@@ -335,10 +335,10 @@ body {
 
 .info p{
     font-family: 'Montserrat-B';
-    color: #5F6B4B;
+    color: #FFDE59;
     font-size: 2rem;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: justify;
 }
 
@@ -348,10 +348,10 @@ body {
     display: inline-block;
     text-align: left;
     font-family: 'Montserrat-B';
-    color: #5F6B4B;
+    color: #FFDE59;
     font-size: 2rem;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1200px) {
