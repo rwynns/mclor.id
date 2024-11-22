@@ -338,8 +338,6 @@ body {
     color: #5F6B4B;
     font-size: 2rem;
     font-weight: bold;
-    -webkit-text-stroke-color: #FFDE59;
-    -webkit-text-stroke-width: 0.3px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: justify;
 }
@@ -353,24 +351,12 @@ body {
     color: #5F6B4B;
     font-size: 2rem;
     font-weight: bold;
-    -webkit-text-stroke-color: #FFDE59;
-    -webkit-text-stroke-width: 0.3px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1200px) {
     .info .logo {
         visibility: hidden;
-    }
-}
-
-@media (max-width: 576px) {
-    .info p {
-        -webkit-text-stroke-width: 0.1px;
-    }
-
-    .info ul {
-        -webkit-text-stroke-width: 0.1px;
     }
 }
 
